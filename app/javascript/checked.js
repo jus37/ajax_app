@@ -18,7 +18,7 @@ function check() {
         }
         const item = XHR.response.post;
         if (item.checked === true) {
-          post.setAttribute("date-check", "true");
+          post.setAttribute("data-check","true");
         } else if (item.checked === false) {
           post.removeAttribute("data-check");
         }
